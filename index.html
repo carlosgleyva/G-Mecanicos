@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo G - Mecánicos | Liderazgo y Precisión Automotriz</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="fas fa-tools fa-lg me-2 text-primary-orange"></i>
+                <span class="fw-bold">Grupo G - Mecánicos</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-nosotros" class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel Principal -->
+    <header id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i.postimg.cc/L6Dbb8yb/cuidado-del-coche-en-el-taller.jpg" class="d-block w-100" alt="Cuidado del coche en taller">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Liderazgo y Precisión en Cada Servicio</h2>
+                    <p>Soluciones de vanguardia para el rendimiento óptimo de tu vehículo.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.postimg.cc/fRbrnQpT/mecanico-de-sexo-femenino-que-sostiene-las-piezas-de-repuesto.jpg" class="d-block w-100" alt="Mecánica profesional con repuestos">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Tecnología de Punta y Diagnóstico Avanzado</h2>
+                    <p>Equipados para resolver cualquier desafío mecánico con la máxima eficiencia.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.postimg.cc/R0ksH6FN/tema-de-reparacion-y-mantenimiento-de-automoviles-mecanico-en-uniforme-trabajando-en-servicio-automa.jpg" class="d-block w-100" alt="Mecánico trabajando en auto">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Asesoría Experta a tu Disposición</h2>
+                    <p>Nuestro equipo de especialistas está listo para brindarte la mejor atención.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </header>
+
+    <!-- Sección ¿Por qué elegirnos? -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title">¿Por Qué Confiar en Grupo G?</h2>
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-box">
+                        <div class="feature-icon-wrapper"><i class="fas fa-award fa-3x text-primary-orange"></i></div>
+                        <h5 class="mt-3">Calidad Certificada</h5>
+                        <p>Aplicamos los más altos estándares en cada reparación y mantenimiento.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-box">
+                         <div class="feature-icon-wrapper"><i class="fas fa-microchip fa-3x text-primary-orange"></i></div>
+                        <h5 class="mt-3">Tecnología Avanzada</h5>
+                        <p>Utilizamos herramientas de diagnóstico de última generación.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-box">
+                         <div class="feature-icon-wrapper"><i class="fas fa-users-cog fa-3x text-primary-orange"></i></div>
+                        <h5 class="mt-3">Técnicos Expertos</h5>
+                        <p>Un equipo en constante capacitación para atender todas las marcas.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-box">
+                         <div class="feature-icon-wrapper"><i class="fas fa-headset fa-3x text-primary-orange"></i></div>
+                        <h5 class="mt-3">Atención Personalizada</h5>
+                        <p>Te escuchamos y ofrecemos soluciones a la medida de tus necesidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Nuestros Servicios Especializados</h2>
+            <p class="text-center lead mb-5">Ofrecemos un abanico completo de soluciones para mantener tu auto en perfectas condiciones.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://i.postimg.cc/TPFSJNk2/cambio-de-discos-de-freno-mecanico-en-el-servicio-de-automoviles.jpg" class="card-img-top" alt="Mantenimiento de Frenos">
+                        <div class="card-body">
+                            <h5 class="card-title">Mantenimiento de Frenos</h5>
+                            <p class="card-text">Revisión y cambio de balatas, discos y líquido de frenos para tu máxima seguridad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://i.postimg.cc/wBy4Mc9C/disposicion-de-diferentes-accesorios-de-coche.jpg" class="card-img-top" alt="Suspensión y Dirección">
+                        <div class="card-body">
+                            <h5 class="card-title">Suspensión y Dirección</h5>
+                            <p class="card-text">Alineación, balanceo y cambio de amortiguadores para un manejo confortable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://i.postimg.cc/2yFKmkC3/disposicion-de-diferentes-accesorios-de-coche-1.jpg" class="card-img-top" alt="Afinación de Motor">
+                        <div class="card-body">
+                            <h5 class="card-title">Afinación de Motor</h5>
+                            <p class="card-text">Servicio completo de afinación para optimizar el consumo y la potencia de tu motor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-primary-orange">Grupo G - Mecánicos</h5>
+                    <p>
+                        Somos líderes en servicio automotriz, comprometidos con la innovación y la satisfacción total de nuestros clientes. Tu confianza es nuestro motor.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-primary-orange">Contacto</h5>
+                    <p><i class="fas fa-home me-3"></i> Av. de la Tecnología 456, Querétaro, México</p>
+                    <p><i class="fas fa-envelope me-3"></i> contacto@grupogmecanicos.com</p>
+                    <p><i class="fas fa-phone me-3"></i> +52 442 987 6543</p>
+                </div>
+                 <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-primary-orange">Síguenos</h5>
+                      <a href="#" class="btn btn-outline-primary-orange btn-floating m-1" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="btn btn-outline-primary-orange btn-floating m-1" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                      <a href="#" class="btn btn-outline-primary-orange btn-floating m-1" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+             <hr class="my-4">
+            <div class="text-center">
+                 <p>&copy; 2025 Grupo G - Mecánicos S.A. de C.V. - Página Demo</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INICIO: Modal Pop-up -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title w-100 text-center" id="contactModalLabel">
+                        ¡Hola! Soy Avi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+                        <div class="col-sm-4 text-center mb-3 mb-sm-0">
+                             <img src="https://i.postimg.cc/8zw3rm0w/Gemini-Generated-Image-tifk8mtifk8mtifk.png" alt="Avi, tu asistente virtual" class="avi-avatar">
+                        </div>
+                        <div class="col-sm-8 text-center text-sm-start">
+                            <p>Veo que te interesa conocer más sobre los líderes en servicio.</p>
+                            <p class="lead">¿Te gustaría hablar conmigo? Estoy listo para resolver tus dudas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ahora no</button>
+                    <button type="button" id="accept-contact" class="btn btn-primary-orange">Sí, hablar con Avi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN: Modal Pop-up -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- INICIO: Script para el Pop-up y carga de Genesys -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const nosotrosLink = document.getElementById('nav-nosotros');
+            const contactModal = new bootstrap.Modal(document.getElementById('contactModal'));
+            const acceptButton = document.getElementById('accept-contact');
+
+            // 1. Poner la 'bandera' cuando el usuario hace clic en "Nosotros"
+            if (nosotrosLink) {
+                nosotrosLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    sessionStorage.setItem('visitedNosotros', 'true');
+                    window.location.href = this.href;
+                });
+            }
+            
+            // 2. Revisar si la 'bandera' existe al cargar la página principal
+            if (sessionStorage.getItem('visitedNosotros') === 'true') {
+                contactModal.show();
+                sessionStorage.removeItem('visitedNosotros');
+            }
+
+            // 3. Definir la acción del botón "Aceptar": Cargar y abrir Genesys
+            if (acceptButton) {
+                acceptButton.addEventListener('click', function() {
+                    // Ocultar el pop-up
+                    contactModal.hide();
+                    
+                    // Revisar si el script de Genesys ya fue cargado para no duplicarlo
+                    if (typeof window.Genesys === 'undefined') {
+                        // Inyectar el script de Genesys en la página
+                        (function (g, e, n, es, ys) {
+                            g['_genesysJs'] = e;
+                            g[e] = g[e] || function () { (g[e].q = g[e].q || []).push(arguments) };
+                            g[e].t = 1 * new Date();
+                            g[e].c = es;
+                            ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+                        })(window, 'Genesys', 'https://apps.mypurecloud.com/genesys-bootstrap/genesys.min.js', {
+                            environment: 'prod',
+                            deploymentId: 'accea858-3512-4802-8de1-76c7fd655fe1'
+                        });
+                    }
+
+                    // Esperar un momento a que el script cargue y luego abrir el chat
+                    setTimeout(function() {
+                        if (window.Genesys && typeof window.Genesys.command === 'function') {
+                            window.Genesys('command', 'Messenger.open');
+                        }
+                    }, 1500); // 1.5 segundos de espera
+                });
+            }
+        });
+    </script>
+    <!-- FIN: Script para el Pop-up y carga de Genesys -->
+
+</body>
+</html>
+
